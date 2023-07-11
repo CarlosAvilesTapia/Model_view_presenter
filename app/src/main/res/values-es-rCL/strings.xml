@@ -5,8 +5,8 @@
     <string name="password">Contraseña</string>
     <string name="check">Comprobar</string>
     <string name="please_enter_your_password">Por favor ingrese su contraseña.</string>
-    <string name="your_password_is_weak">Su contraseña es débil.</string>
-    <string name="you_can_do_better">Puede hacerlo mejor.</string>
+    <string name="your_password_is_weak">Su contraseña es débil. (Debe ingresar más de 5 caracteres)</string>
+    <string name="you_can_do_better">Puede hacerlo mejor. (Debe ingresar al menos 1 letra mayúscula)</string>
     <string name="your_password_is_strong">Su contraseña es fuerte.</string>
     <string name="unknown_error">Error desconocido.</string>
 </resources>
