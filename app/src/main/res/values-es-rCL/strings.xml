@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">06 Model view presenter example</string>
+    <string name="password_strength">Fortaleza de contraseña</string>
+    <string name="password">Contraseña</string>
+    <string name="check">Comprobar</string>
+    <string name="please_enter_your_password">Por favor ingrese su contraseña.</string>
+    <string name="your_password_is_weak">Su contraseña es débil.</string>
+    <string name="you_can_do_better">Puede hacerlo mejor.</string>
+    <string name="your_password_is_strong">Su contraseña es fuerte.</string>
+    <string name="unknown_error">Error desconocido.</string>
+</resources>

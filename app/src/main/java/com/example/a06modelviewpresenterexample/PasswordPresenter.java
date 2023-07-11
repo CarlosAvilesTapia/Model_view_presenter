@@ -4,7 +4,6 @@ public class PasswordPresenter {
 
     private PasswordModel passwordModel;
 
-
     private IViewPresenter iViewPresenter;
 
     public PasswordPresenter(IViewPresenter iViewPresenter) {
@@ -13,10 +12,13 @@ public class PasswordPresenter {
         passwordModel = new PasswordModel();
     }
 
-
     public void evaluatePassword(String password) {
         int level = passwordModel.validatePassword(password);
-        if (level == PasswordModel.WEAK) {
+
+        if (level == PasswordModel.EMPTY) {
+            this.iViewPresenter.showEmptyPassword();
+
+        } else if (level == PasswordModel.WEAK) {
             this.iViewPresenter.showWeakPassword();
 
         } else if (level == PasswordModel.MEDIUM) {
